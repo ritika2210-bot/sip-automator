@@ -1,11 +1,9 @@
 package enums;
 
-/**
- * Lifecycle status of a Systematic Investment Plan (SIP).
- */
+// Status of a SIP plan
 public enum SIPStatus {
-    ACTIVE,     // SIP is running monthly
-    PAUSED,     // Temporarily halted
+    ACTIVE,     // Running every month
+    PAUSED,     // Temporarily stopped
     CANCELLED,  // Permanently stopped
-    COMPLETED   // Reached end date or target installments
+    COMPLETED   // Finished all installments
 }

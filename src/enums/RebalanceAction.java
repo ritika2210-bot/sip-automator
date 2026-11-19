@@ -1,10 +1,8 @@
 package enums;
 
-/**
- * Recommended action per fund in a rebalancing report.
- */
+// What action to take during portfolio rebalancing
 public enum RebalanceAction {
-    BUY,   // Buy more units of this fund (underweight)
-    SELL,  // Sell some units of this fund (overweight)
-    HOLD   // No action needed (within tolerance)
+    BUY,   // Buy more (you're below target)
+    SELL,  // Sell some (you're above target)
+    HOLD   // No action needed
 }
